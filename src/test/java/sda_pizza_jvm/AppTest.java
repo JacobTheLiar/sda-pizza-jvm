@@ -1,4 +1,4 @@
-package sda-pizza-jvm;
+package sda_pizza_jvm;
 
 import static org.junit.Assert.assertTrue;
 
