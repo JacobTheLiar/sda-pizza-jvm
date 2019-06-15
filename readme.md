@@ -113,3 +113,26 @@ adding: sda_pizza_jvm/Restaurant.class(in = 1745) (out= 1035)(deflated 40%)
 $ java -jar pizzaAppMF.jar
 ```
 
+## javadoc
+
+zadanie do domu do poćwiczenia
+
+```
+javadoc -sourcepath ./src -d ./docs/ -subpackages .
+```
+
+
+# visual vm
+
+wizualizacja użycia programu...
+
+
+## Concatenate vs StringBulider
+
+projekt w pakiecie ```virtual_vm``` do porównania wydajności działania konkatenacji vs łączenia tekstów w StringBulider
+
+
+# zabawy
+
+w pakiecie ```word_count``` zliczanie słów w książce Pan Tadeusz
+  

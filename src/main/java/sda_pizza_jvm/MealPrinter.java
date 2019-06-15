@@ -5,7 +5,7 @@ import java.util.List;
 public class MealPrinter {
 
 
-    public static void printMenu(List<Meal> dishes){
+    public static void printMenu(List<Meal> dishes) {
 
         StringBuilder sb = new StringBuilder();
 
@@ -23,8 +23,6 @@ public class MealPrinter {
         System.out.println(sb);
 
     }
-
-
 
 
 }
