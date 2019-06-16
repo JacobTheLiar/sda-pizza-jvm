@@ -9,7 +9,6 @@ public class MealPrinter {
 
         StringBuilder sb = new StringBuilder();
 
-
         sb.append("meal list: \n");
 
         int couter = 0;
@@ -19,10 +18,7 @@ public class MealPrinter {
             sb.append(String.format("%3d. %30s\n", couter, meal));
         }
 
-
         System.out.println(sb);
-
     }
-
 
 }

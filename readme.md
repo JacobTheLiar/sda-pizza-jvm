@@ -124,7 +124,11 @@ javadoc -sourcepath ./src -d ./docs/ -subpackages .
 
 # visual vm
 
-wizualizacja użycia programu...
+wizualizacja użycia programu i przegląd programu
+
+```
+c:\Program Files\Java\jdk_XXX\bin\jvisualvm.exe
+```
 
 
 ## Concatenate vs StringBulider

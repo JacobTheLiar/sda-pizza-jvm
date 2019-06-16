@@ -4,7 +4,6 @@ import java.util.List;
 
 public class ChosenSummary {
 
-
     public static void viewSummary(List<Meal> chosen) {
 
         double sum = 0.0;

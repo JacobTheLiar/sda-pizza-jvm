@@ -2,8 +2,8 @@ package sda_pizza_jvm.visual_vm;
 
 public class Concatenate {
 
-
     private final MyReader reader;
+
 
     public Concatenate(MyReader reader) {
 
@@ -22,6 +22,7 @@ public class Concatenate {
         return result;
     }
 
+
     public String withBuilder(){
         reader.reset();
         StringBuilder sb = new StringBuilder();
@@ -32,6 +33,5 @@ public class Concatenate {
 
         return sb.toString();
     }
-
 
 }

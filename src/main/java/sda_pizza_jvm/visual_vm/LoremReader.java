@@ -5,15 +5,14 @@ import java.io.FileReader;
 
 public class LoremReader implements MyReader {
 
-
     private final String FILE_PATH = "c:\\Users\\Jakub\\IdeaProjects\\sdapizzajvm\\lorem.txt";
     private BufferedReader file;
-
 
 
     public LoremReader() {
         reset();
     }
+
 
     @Override
     public String readLine(){
@@ -23,6 +22,7 @@ public class LoremReader implements MyReader {
             return "";
         }
     }
+
 
     @Override
     public void reset() {

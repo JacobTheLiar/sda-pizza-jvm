@@ -19,7 +19,7 @@ public class Restaurant {
 
     private void viewMenu() {
 
-        boolean exit = false;
+        boolean exit;
 
         do {
             printMenu(meals);

@@ -2,7 +2,6 @@ package sda_pizza_jvm;
 
 public class Pizza implements Meal {
 
-
     private String name;
     private double price;
 
@@ -11,10 +10,6 @@ public class Pizza implements Meal {
         this.price = price;
     }
 
-    @Override
-    public String getName() {
-        return name;
-    }
 
     @Override
     public double getPrice() {
@@ -24,7 +19,6 @@ public class Pizza implements Meal {
 
     @Override
     public String toString() {
-
 
         StringBuilder sb = new StringBuilder();
         sb.append(String.format("Pizza %-15s", name));

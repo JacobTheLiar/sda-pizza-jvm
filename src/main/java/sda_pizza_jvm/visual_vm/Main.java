@@ -9,16 +9,19 @@ public class Main {
         MyReader loremReader = new LoremReader();
         Concatenate concatenate = new Concatenate(loremReader);
 
-        System.out.println("do it");
+        System.out.println("do with Concatenate");
         getInt();
-        System.out.println(concatenate.withPlus());
+        long time = System.nanoTime();
+        concatenate.withPlus();
+        System.out.println("work time: "+(System.nanoTime()-time)/1000000);
 
 
-        System.out.println("do it");
+        System.out.println();
+        System.out.println("do with StringBuilder");
         getInt();
-        System.out.println(concatenate.withBuilder());
+        time = System.nanoTime();
+        concatenate.withBuilder();
+        System.out.println("work time: "+(System.nanoTime()-time)/1000000);
         getInt();
-
     }
-
 }
